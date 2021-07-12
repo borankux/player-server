@@ -2,4 +2,6 @@ package models
 
 import "github.com/borankux/filemaster/scans"
 
-type Song scans.FileInfo
+type Song struct {
+	scans.FileInfo
+}
